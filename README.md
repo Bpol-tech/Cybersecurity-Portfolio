@@ -22,7 +22,14 @@ Detailed technical write-ups and architectural breakdowns of the security enviro
 ---
 
 ##  Upcoming Projects & Roadmap
-* **Phase 3:** SOC Incident Response Audits (LetsDefend / Blue Team Labs) -> Documenting systematic remediation of real-world malware execution, phishing campaigns, and privilege escalation vectors.
+
+###  Phase 3: Detection Engineering & Threat Hunting Lab (Sysmon + MITRE ATT&CK)
+* **Description:** Elevating host-based monitoring by deploying Microsoft System Monitor (Sysmon) with an optimized security configuration. The project focuses on simulating real-world adversary techniques using open-source testing frameworks, mapping events to the MITRE ATT&CK matrix, creating custom Wazuh detection rules, and documenting formal SOC Incident Response Playbooks.
+* **Core Focus:** - Detection Engineering, Threat Hunting, and Incident Simulation.
+
+###  Phase 4: Network Security Monitoring (NSM) & Home Traffic Analysis
+* **Description:** Overcoming the limitations of residential ISP hardware by implementing a centralized network-layer auditing solution using a custom DNS/Sinkhole architecture (Pi-hole) and traffic capture tools. The objective is to analyze real-time outbound connections, map active device telemetries across the home network, identify stealthy beaconing patterns, and enforce network-wide tracking and ad-filtering policies.
+* **Core Focus:** - Network Traffic Analysis and Perimeter Hardening.
 
 ---
 
